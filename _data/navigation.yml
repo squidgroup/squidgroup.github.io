@@ -1,4 +1,6 @@
 - name: Members
   link: /members/
+- name: Posts
+  link: /posts/
 - name: About
   link: /about/
