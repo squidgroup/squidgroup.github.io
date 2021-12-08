@@ -43,7 +43,7 @@ plugins:
 collections:
   members: 
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:path/
     
 collections_dir: my_collections
   

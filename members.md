@@ -6,7 +6,7 @@ permalink: /members/
 
 {% for member in site.members %}
   <h2>
-    <a href="{{ staff_member.url }}">
+    <a href="{{ member.url | prepend: site.baseurl }}">
       {{ member.name }}
     </a>
   </h2>
