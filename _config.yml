@@ -31,7 +31,7 @@ twitter_username: SQuID_Group
 github_username:  squid-group
 
 # paths
-imamges_path: /assets/images/ 
+images_path: /assets/images/ 
 
 
 # Build settings

@@ -4,9 +4,10 @@
 @import "minima";
 
 
+/***************************/
+// Home page
+
 $squid-blue-color: #337AB6;
-
-
 
 .trigger {
   
@@ -27,6 +28,43 @@ $squid-blue-color: #337AB6;
   
   background-color:$squid-blue-color;
   padding: 30px 0px;
+}
+
+
+/***************************/
+// Members
+
+.member {
+  padding: 5px;
+  float: left;
+  width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  .member {
+      width: 100%;
+  }
+}
+
+.member .container {
+  text-align: center;
+  padding: 5px;
+  //background-color: #EFF6FB;
+  // border: 2px solid black;
+  // border-radius: 5px;
+  height: 175px;
+}
+
+.member img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.members:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 
