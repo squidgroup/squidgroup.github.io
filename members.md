@@ -17,7 +17,7 @@ permalink: /members/
         
       {% else %}
 
-       <img alt="squid_logo" src="{{site.images_path}}squid_logo.png">
+       <img alt="squid_logo" src="{{site.images_path | relative_url}}squid_logo.png">
        
       {% endif %}
       
