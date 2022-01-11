@@ -13,11 +13,11 @@ permalink: /members/
 
       {% if avatar %}
       
-        <img src="{{ avatar.path }}">
+        <img src="{{ avatar.path | relative_url }}">
         
       {% else %}
 
-       <img alt="squid_logo" src="{{site.images_path | relative_url}}squid_logo.png">
+       <img alt="squid_logo" src="{{ site.images_path | relative_url }}squid_logo.png">
        
       {% endif %}
       
