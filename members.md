@@ -11,6 +11,12 @@ permalink: /members/
 
       {% assign avatar = site.static_files | find_exp: "item", "item.path contains member.photo" %}
 
+      <div> {{ avatar.path | relative_url }} </div>
+
+      <div> {{ member.photo }} </div>
+      
+      <div> {{ site.images_path | relative_url }} </div>
+
       {% if avatar %}
       
         <img src="{{ avatar.path | relative_url }}">
