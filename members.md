@@ -28,20 +28,35 @@ permalink: /members/
       </h3>
       <!-- <p>{{ member.content | markdownify }}</p> -->
       
-      
       <div class="links">
+      
+        {%- if member.googlescholar -%}
+          <a href="{{ member.googlescholar }}" target="_blank">
+            <i class="ai ai-google-scholar"></i>
+          </a>
+        {%- endif -%}
+        
+        {%- if member.researchgate -%}
+          <a href="{{ member.researchgate }}" target="_blank">
+            <i class="ai ai-researchgate"></i>
+          </a>
+        {%- endif -%}
+      
         {%- if member.github -%}
           <a href="{{ member.github }}" target="_blank">
-            <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> 
+            <i class="fab fa-github"></i> 
           </a>
         {%- endif -%}
         
         {%- if member.twitter -%}
-        <a href="{{ member.twitter }}" target="_blank">
-          <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg>
-        </a>
-      {%- endif -%}
+          <a href="{{ member.twitter }}" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        {%- endif -%}
+        
+        
       </div>
+      
     </div> 
   </div>
   {% endfor %}

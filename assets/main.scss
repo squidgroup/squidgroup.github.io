@@ -3,6 +3,21 @@
 
 @import "minima";
 
+/***************************/
+// Social icons
+.fab, .ai{
+  padding: 3px;
+  color: #999999;
+}
+
+a:hover .fab, a:hover .ai{
+  color: #2a7ae2;
+  
+}
+
+a:hover{
+  text-decoration: none;
+}
 
 /***************************/
 // Home page
