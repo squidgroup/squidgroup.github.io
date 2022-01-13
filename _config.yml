@@ -46,6 +46,10 @@ collections:
   members: 
     output: true
     permalink: /:collection/:path/
+  posts:
+    output: true
+    permalink: /:collection/:path/
+    
     
 collections_dir: my_collections
   

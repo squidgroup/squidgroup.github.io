@@ -8,25 +8,9 @@ permalink: /members/
   {% for member in site.members %}
   <div class="member">
     <div class="container">
-
-      {% assign avatar = site.static_files | find_exp: "item", "item.path contains member.photo" %}
-
-      <div> {{ avatar.path | relative_url }} </div>
-
-      <div> {{ member.photo }} </div>
-      
-      <div> {{ site.images_path | relative_url }} </div>
-
-      {% if avatar %}
-      
-        <img src="{{ avatar.path | relative_url }}">
-        
-      {% else %}
-
-       <img alt="squid_logo" src="{{ site.images_path | relative_url }}squid_logo.png">
-       
-      {% endif %}
-      
+    
+      <img alt="Member photo" src="{{ site.images_path | relative_url }}members/{{ member.photo }}" onerror="this.onerror=null; this.src='{{ site.images_path | relative_url }}squid_logo.png'">
+    
       <h3>
         <!-- <a href="{{ member.url | prepend: site.baseurl }}"> -->
           {{ member.name }}
