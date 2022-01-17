@@ -11,14 +11,20 @@ permalink: /members/
     
       <img alt="Member photo" src="{{ site.images_path | relative_url }}members/{{ member.photo }}" onerror="this.onerror=null; this.src='{{ site.images_path | relative_url }}squid_logo.png'">
     
-      <h3>
+      <h4>
         <!-- <a href="{{ member.url | prepend: site.baseurl }}"> -->
           {{ member.name }}
         <!-- </a> -->
-      </h3>
+      </h4>
       <!-- <p>{{ member.content | markdownify }}</p> -->
       
       <div class="links">
+      
+        {%- if member.website -%}
+          <a href="{{ member.website }}" target="_blank">
+            <i class="fas fa-address-card"></i>
+          </a>
+        {%- endif -%}
       
         {%- if member.googlescholar -%}
           <a href="{{ member.googlescholar }}" target="_blank">
@@ -31,6 +37,12 @@ permalink: /members/
             <i class="ai ai-researchgate"></i>
           </a>
         {%- endif -%}
+        
+        {%- if member.orcid -%}
+          <a href="{{ member.orcid }}" target="_blank">
+            <i class="ai ai-orcid"></i>
+          </a>
+        {%- endif -%}
       
         {%- if member.github -%}
           <a href="{{ member.github }}" target="_blank">
@@ -41,6 +53,18 @@ permalink: /members/
         {%- if member.twitter -%}
           <a href="{{ member.twitter }}" target="_blank">
             <i class="fab fa-twitter"></i>
+          </a>
+        {%- endif -%}
+        
+        {%- if member.facebook -%}
+          <a href="{{ member.facebook }}" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+        {%- endif -%}
+        
+        {%- if member.instagram -%}
+          <a href="{{ member.instagram }}" target="_blank">
+            <i class="fab fa-instagram"></i>
           </a>
         {%- endif -%}
         
