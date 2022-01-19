@@ -2,6 +2,7 @@
 layout: page
 collections: members
 name: Yimen G. Araya-Ajoy
+type: founder
 photo: yimenarayaajoy.jpg
 twitter: https://twitter.com/ArayaYimen
 website: https://www.ntnu.edu/employees/yimen.araya-ajoy

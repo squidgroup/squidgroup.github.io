@@ -2,6 +2,7 @@
 layout: page
 collections: members
 name: Joel Pick
+type: current
 photo: joelpick.jpg
 github:  https://github.com/joelpick
 twitter: https://twitter.com/joel_l_pick

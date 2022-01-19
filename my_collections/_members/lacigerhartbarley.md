@@ -2,6 +2,7 @@
 layout: page
 collections: members
 name: Laci M. Gerhart-Barley
+type: current
 photo: lacigerhartbarley.jpg
 twitter: https://twitter.com/LMGerhart
 website: https://gerhartbarley.blog/
