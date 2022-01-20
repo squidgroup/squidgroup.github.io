@@ -2,7 +2,7 @@
   
   {%- if site.github_username -%}
     <li>
-      <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}">
+      <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}" title="github">
         <i class="fab fa-github"></i> 
         <span class="username">{{ site.github_username| escape }}</span>
       </a>
@@ -11,7 +11,7 @@
   
   {%- if site.twitter_username -%}
     <li>
-      <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
+      <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}" title="twitter">
         <i class="fab fa-twitter"></i> 
         <span class="username">{{ site.twitter_username| escape }}</span>
       </a>
