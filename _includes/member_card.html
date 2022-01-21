@@ -5,11 +5,11 @@
   <img alt="Member photo" src="{{ site.images_path | relative_url }}members/{{ member.photo }}" onerror="this.onerror=null; this.src='{{ site.images_path | relative_url }}squid_logo.png'">
 
   <div class="info">
-    <h4>
+    <div class="name">
       <!-- <a href="{{ member.url | prepend: site.baseurl }}"> -->
         {{ member.name }}
       <!-- </a> -->
-    </h4>
+    </div>
     <!-- <p>{{ member.content | markdownify }}</p> -->
     
     <div class="links">

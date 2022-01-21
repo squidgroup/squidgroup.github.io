@@ -1,18 +1,24 @@
 ---
 ---
 
+@import "minima";
+
 *{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-@import "minima";
-
 $squid-blue-color: #337AB6;
+
+
+/***************************/
+// General
+
 
 /***************************/
 // Social icons
+
 .fab, .fas, .ai{
   padding: 3px;
   color: #999999;
@@ -51,6 +57,11 @@ a:hover{
 /***************************/
 // Members
 
+.member-page h1 {
+  text-align: center;
+}
+
+
 .member-container{
   width: 100%;
   display: flex;
@@ -58,6 +69,11 @@ a:hover{
   align-items: center;
   flex-wrap: wrap;
 } 
+
+hr.rounded {
+  margin: 30px 0px 15px 0px;
+  border-color: $squid-blue-color;
+}
 
 .member-box{
   position: relative;
@@ -101,8 +117,10 @@ a:hover{
   align-items: center;
 }
 
-.member-box h4 {
-  margin-bottom: 5px;
+.member-box .name {
+  margin: 5px 0px;
+  font-size: 1.1em;
+  text-align: center;
 }
 
 
