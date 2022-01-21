@@ -1,7 +1,15 @@
 ---
 ---
 
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 @import "minima";
+
+$squid-blue-color: #337AB6;
 
 /***************************/
 // Social icons
@@ -11,8 +19,7 @@
 }
 
 a:hover .fab, a:hover .fas, a:hover .ai{
-  color: #2a7ae2;
-  
+  color: $squid-blue-color;
 }
 
 a:hover{
@@ -22,15 +29,11 @@ a:hover{
 /***************************/
 // Home page
 
-$squid-blue-color: #337AB6;
-
 .trigger {
-  
   margin-right: 20px;
 }
 
 #nav-social {
-  
   float: right;
 }
 
@@ -40,7 +43,6 @@ $squid-blue-color: #337AB6;
 
 
 #home-squid-logo {
-  
   background-color:$squid-blue-color;
   padding: 30px 0px;
 }
@@ -49,52 +51,59 @@ $squid-blue-color: #337AB6;
 /***************************/
 // Members
 
-.member {
-  padding: 5px;
-  float: left;
-  width: 48%;
+.member-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+} 
+
+.member-box{
+  position: relative;
+  width: 200px;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin: 10px;
+  position: relative;
+  border-radius: 20px;
 }
 
-@media only screen and (max-width: 600px) {
-  .member {
-      width: 100%;
-  }
+.top-bar{
+  width: 50%;
+  height: 4px;
+  background: $squid-blue-color;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 0px 0px 10px 10px;
 }
 
-.member .container {
-  text-align: left;
-  padding: 5px;
-  border: 2px solid #e2e2e2;
-  border-radius: 5%;
-  // height: 225;
+.member-box img{
+  width: 90px;
+  height: 90px;
+  border-radius:100px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: top;
 }
 
-.member .container:after {
-  content: "";
-  display: table;
-  clear: both;
+.member-box .info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.member h4 {
-  margin: 5px 0px 0px 115px;
+.member-box h4 {
+  margin-bottom: 5px;
 }
 
-.member img {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  float: left;
-}
-
-.member .links {
-  text-align: left;
-  padding-right: 20px;
-}
-
-.members:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 

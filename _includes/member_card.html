@@ -1,8 +1,10 @@
-<div class="member">
-  <div class="container">
-  
-    <img alt="Member photo" src="{{ site.images_path | relative_url }}members/{{ member.photo }}" onerror="this.onerror=null; this.src='{{ site.images_path | relative_url }}squid_logo.png'">
-  
+<div class="member-box">
+
+  <div class="top-bar"></div>
+
+  <img alt="Member photo" src="{{ site.images_path | relative_url }}members/{{ member.photo }}" onerror="this.onerror=null; this.src='{{ site.images_path | relative_url }}squid_logo.png'">
+
+  <div class="info">
     <h4>
       <!-- <a href="{{ member.url | prepend: site.baseurl }}"> -->
         {{ member.name }}
@@ -59,7 +61,7 @@
           <i class="fab fa-instagram" title="instagram"></i>
         </a>
       {%- endif -%}
-      
-    </div>
-  </div> 
+        
+     </div>
+  </div>  
 </div>
