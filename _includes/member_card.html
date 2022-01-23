@@ -32,6 +32,12 @@
         </a>
       {%- endif -%}
       
+      {%- if member.publons -%}
+        <a href="{{ member.publons }}" target="_blank">
+          <i class="ai ai-publons" title="publons"></i>
+        </a>
+      {%- endif -%}
+      
       {%- if member.orcid -%}
         <a href="{{ member.orcid }}" target="_blank">
           <i class="ai ai-orcid" title="orcid"></i>
