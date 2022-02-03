@@ -1,10 +1,12 @@
+<h4><strong>Follow us!</strong></h4>
+
 <ul class="social-media-list">
   
   {%- if site.github_username -%}
     <li>
       <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}" title="github">
         <i class="fab fa-github"></i> 
-        <span class="username">{{ site.github_username| escape }}</span>
+        {{ site.github_username| escape }}
       </a>
     </li>
   {%- endif -%}
@@ -13,7 +15,7 @@
     <li>
       <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}" title="twitter">
         <i class="fab fa-twitter"></i> 
-        <span class="username">{{ site.twitter_username| escape }}</span>
+        {{ site.twitter_username| escape }}
       </a>
     </li>
   {%- endif -%}

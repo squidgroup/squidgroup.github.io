@@ -10,10 +10,23 @@
 }
 
 $squid-blue-color: #337AB6;
+$squid-grey-color: #999999;
 
 
 /***************************/
 // General
+
+p {
+  text-align: justify;
+}
+
+a {
+  color: $squid-blue-color;
+}
+
+a:hover {
+  color: $squid-grey-color;
+}
 
 
 /***************************/
@@ -21,7 +34,7 @@ $squid-blue-color: #337AB6;
 
 .fab, .fas, .ai{
   padding: 3px;
-  color: #999999;
+  color: $squid-grey-color;
 }
 
 a:hover .fab, a:hover .fas, a:hover .ai{
@@ -136,3 +149,40 @@ hr.rounded {
   border-radius: 20px;
 }
 
+
+/***************************/
+// Footer
+
+.footer-col-wrapper{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-col-1 {
+  width: calc(75% - (30px / 2));
+  vertical-align: middle;
+}
+
+.footer-col-2 {
+  width: calc(25% - (30px / 2));
+}
+
+.footer-col-3 {
+  width: calc(0% - (30px / 2));
+}
+
+.copyright {
+  text-align: center;
+  font-size: 70%;
+  color: $squid-grey-color;
+}
