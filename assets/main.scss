@@ -9,32 +9,39 @@
   margin: 0;
 }
 
-$squid-blue-color: #337AB6;
-$squid-grey-color: #999999;
+$squid-blue-dark: #337AB6;
+$squid-blue-light: #3a9de3;
+$squid-grey: #999999;
 
 
 /***************************/
 // General
+
+body { 
+
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  
+}
 
 p {
   text-align: justify;
 }
 
 a {
-  color: $squid-blue-color;
+  color: $squid-blue-dark;
 }
 
 a:hover {
-  color: $squid-grey-color;
+  color: $squid-grey;
 }
 
 /***************************/
 // Header
 
-.site-header {
-  
- border-top: 5px solid #424242;
- border-bottom: 5px solid #424242;
+.site-header {  
+ border-top: 2px solid $squid-blue-light;
+ border-bottom: 2px solid $squid-blue-light;
 }
 
 /***************************/
@@ -42,11 +49,11 @@ a:hover {
 
 .fab, .fas, .ai{
   padding: 3px;
-  color: $squid-grey-color;
+  color: $squid-grey;
 }
 
 a:hover .fab, a:hover .fas, a:hover .ai{
-  color: $squid-blue-color;
+  color: $squid-blue-dark;
 }
 
 a:hover{
@@ -70,15 +77,48 @@ a:hover{
 
 
 #home-squid-logo {
-  background-color:$squid-blue-color;
+  background-color:$squid-blue-dark;
   padding: 30px 0px 0px 0px;
+  box-shadow: 0px 10px 30px 0px rgba($squid-blue-dark, 0.8);
   
 }
 
 #home-squid-logo img {
   height: 80%;
   width: 80%;
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#home-squid-package {
+  margin: 30px 0px;
+}
+
+#home-squid-package .wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#home-squid-package img {
+  width: 25%;
+  height: 25%;
+  float: left;
+}
+
+
+#home-squid-package .package-text{
+  position: relative;
+  float: left;
+  width: 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 20px;
 }
 
 
@@ -100,7 +140,7 @@ a:hover{
 
 hr.rounded {
   margin: 30px 0px 15px 0px;
-  border-color: $squid-blue-color;
+  border-color: $squid-blue-dark;
 }
 
 .member-box{
@@ -121,7 +161,7 @@ hr.rounded {
 .top-bar{
   width: 50%;
   height: 4px;
-  background: $squid-blue-color;
+  background: $squid-blue-dark;
   position: absolute;
   top: 0px;
   left: 50%;
@@ -168,6 +208,10 @@ hr.rounded {
 /***************************/
 // Footer
 
+.site-footer {
+  border-top: 1px solid $squid-grey;
+}
+
 .footer-col-wrapper{
   width: 100%;
   display: flex;
@@ -199,5 +243,5 @@ hr.rounded {
 .copyright {
   text-align: center;
   font-size: 70%;
-  color: $squid-grey-color;
+  color: $squid-grey;
 }
