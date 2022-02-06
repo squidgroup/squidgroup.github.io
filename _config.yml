@@ -48,6 +48,9 @@ collections:
   posts:
     output: true
     permalink: /:collection/:path/
+  drafts:
+    output: true
+    permalink: /:collection/:path/
     
     
 collections_dir: my_collections

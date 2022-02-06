@@ -2,7 +2,7 @@
   link: /members/
 - name: Publications
   link: /publications/
-- name: Posts
-  link: /posts/
+# - name: Posts
+  # link: /posts/
 - name: About
   link: /about/
