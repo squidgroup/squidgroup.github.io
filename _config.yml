@@ -26,7 +26,7 @@ baseurl: / # the subpath of your site, e.g. /blog
 
 
 twitter_username: SQuID_Group
-github_username:  squid-group
+github_username:  squidgroup
 
 # paths
 images_path: /assets/images/ 
