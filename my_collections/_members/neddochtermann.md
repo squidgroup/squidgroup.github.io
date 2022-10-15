@@ -2,7 +2,7 @@
 layout: page
 collections: members
 name: Ned Dochtermann
-type: founder
+type: current
 photo: neddochtermann.jpg
 website: https://www.neddochtermann.com/
 ---

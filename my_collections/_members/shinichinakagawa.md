@@ -2,7 +2,7 @@
 layout: page
 collections: members
 name: Shinichi Nakagawa
-type: founder
+type: current
 photo: shinichinakagawa.jpg
 website: http://www.i-deel.org/
 twitter: https://twitter.com/itchyshin

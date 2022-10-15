@@ -14,8 +14,10 @@ permalink: /members/
     {% endfor %}
   </div>
   
-  <hr class="rounded">
   
+  <!---
+  <hr class="rounded">
+
   <h1 class="post-title">Founding members</h1>
   <div class="member-container">
     {% for member in site.members %}
@@ -24,6 +26,7 @@ permalink: /members/
       {%- endif -%}
     {% endfor %}
   </div>
+  --->
   
   <hr class="rounded">
   

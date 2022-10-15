@@ -2,7 +2,7 @@
 layout: page
 collections: members
 name: Holger Schielzeth
-type: founder
+type: current
 photo: holgerschielzeth.jpg
 twitter: https://twitter.com/PopEcolJena
 website: https://www.popecol.uni-jena.de

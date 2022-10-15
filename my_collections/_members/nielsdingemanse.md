@@ -2,7 +2,7 @@
 layout: page
 collections: members
 name: Niels Dingemanse
-type: founder
+type: current
 photo: nielsdingemanse.jpg
 twitter: https://twitter.com/DingemanseLab
 website: https://www.behavioural-ecology.bio.lmu.de/people/professor/dingemanse/index.html
