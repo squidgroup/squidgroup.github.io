@@ -1,9 +1,9 @@
 ---
 layout: page
 collections: members
-name: Laci M. Gerhart-Barley
+name: Laci M. Gerhart
 type: current
-photo: lacigerhartbarley.jpg
+photo: lacigerhart.jpg
 twitter: https://twitter.com/LMGerhart
 website: https://gerhartbarley.blog/
 googlescholar: https://scholar.google.com/citations?user=5C_O-acAAAAJ&hl=en
