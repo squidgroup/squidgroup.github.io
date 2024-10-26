@@ -1,7 +1,9 @@
-- name: Posts
-  link: /posts/
 - name: Members
   link: /members/
+- name: Workshops
+  link: /workshops/
+- name: Posts
+  link: /posts/
 - name: Publications
   link: /publications/
 - name: About
