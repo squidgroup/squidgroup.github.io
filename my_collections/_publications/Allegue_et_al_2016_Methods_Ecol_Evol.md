@@ -1,7 +1,7 @@
 ---
 layout: page
 collections: publications
-title: "SQuID - Statistical Quantification of Individual Differences: an educational and statistical tool for understanding multi-level phenotypic data in linear mixed models"
+title: "SQuID - Statistical Quantification of Individual Differences: An educational and statistical tool for understanding multi-level phenotypic data in linear mixed models"
 authors: Allegue, H., Araya-Ajoy, Y. G., Dingemanse, N. J., Dochtermann, N. A., Garamszegi, L. Z., Nakagawa, S., Réale, D., Schielzeth, H., & Westneat, D. F.
 year: 2016
 date: 20 September 2016
