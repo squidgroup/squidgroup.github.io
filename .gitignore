@@ -7,3 +7,4 @@ vendor/
 .Rproj.user
 *.Rproj
 *.Rhistory
+Gemfile.lock
