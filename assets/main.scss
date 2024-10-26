@@ -240,3 +240,15 @@ hr.rounded {
   font-size: 70%;
   color: $squid-grey;
 }
+
+
+/***************************/
+// message boxes
+
+/* The alert message box */
+.alert {
+  padding: 10px;
+  background-color: #f44336;
+  color: white;
+  margin-bottom: 15px;
+}

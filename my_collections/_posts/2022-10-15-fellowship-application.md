@@ -5,6 +5,12 @@ title:  "SQuID student fellowships!"
 excerpt_separator: <!--more-->
 ---
 
+<div class="alert">
+  [IMPORTANT] The SQuID student fellowships are no longer available due to the end of our funding.
+</div> 
+
+<!--more-->
+
 The Statistical Quantification of Individual Differences (SQuID) research network is offering student fellowships to collaborate with <a href="/members/" target="_blank">SQuID members</a> on new or ongoing research. <!--more--> SQuID is an international group of evolutionary and behavioral ecologists focused on the use and development of statistical tools for understanding patterns of phenotypic variability. One particular emphasis of the network is the improvement of methods to understand and draw inferences about individual variation. The SQuID Fellowships are intended to share the same goal and extend the use of advanced statistical approaches in evolutionary ecology. The Fellowships are also intended to foster new international collaborations.
 
 Relevant projects could include: extending analyses of existing data sets, simulation studies of the performance of statistical methods, conducting meta-analyses advancing our understanding of individual variation, integrating theory and analytical approaches, and many others. Fellowships are available to graduate students and post-doctoral researchers.
