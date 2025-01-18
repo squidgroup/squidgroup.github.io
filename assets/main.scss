@@ -42,12 +42,12 @@ a:hover {
 /***************************/
 // Social icons
 
-.fab, .fas, .ai{
+.icon-light{
   padding: 3px;
   color: $squid-grey;
 }
 
-a:hover .fab, a:hover .fas, a:hover .ai{
+a:hover .icon-light{
   color: $squid-blue-dark;
 }
 
